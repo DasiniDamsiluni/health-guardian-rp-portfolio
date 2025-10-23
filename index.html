@@ -1,0 +1,1094 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>HealthGuardian</title>
+    <meta name="description" content="Static site to demonstrate a research project." />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <div class="brand">
+          <span class="brand-mark" aria-hidden="true">∎</span>
+          <span class="brand-text">HealthGuardian</span>
+        </div>
+        <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+        <nav class="site-nav" aria-label="Primary">
+          <ul>
+            <li><a href="#home" data-tab-link="home" class="active">Home</a></li>
+            <li><a href="#domain" data-tab-link="domain">Domain</a></li>
+            <li><a href="#milestone" data-tab-link="milestone">Milestone</a></li>
+            <li><a href="#documents" data-tab-link="documents">Documents</a></li>
+            <li><a href="#presentation" data-tab-link="presentation">Presentation</a></li>
+            <li><a href="#about" data-tab-link="about">About Us</a></li>
+            <li><a href="#contact" data-tab-link="contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <section id="home" class="tab-section is-active" tabindex="-1" aria-labelledby="tab-home">
+        <h1 id="tab-home">Welcome</h1>
+        <p>
+          This site showcases our research project. Use the tabs above to explore
+          documents, presentations, team, and contact info.
+        </p>
+        <div class="hero hero-split">
+          <div class="hero-col text">
+            <h2>HealthGuardian</h2>
+            <p class="lead">AI-powered wellness companion for personalized insights and better health.</p>
+          </div>
+          <div class="hero-col visual" aria-hidden="true">
+            <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?q=80&w=1200&auto=format&fit=crop" alt="Health professional reviewing wellness data" loading="lazy">
+          </div>
+        </div>
+
+        <section aria-labelledby="about-health-heading">
+          <h3 id="about-health-heading">Health Guardian - Your Personal Wellness Companion</h3>
+          <p>
+            Health Guardian is an innovative AI-powered health management platform designed to help Sri Lankan adults take control of their wellness journey. Our intelligent system combines real-time fitness tracking, personalized health risk assessment, customized exercise planning, and smart insurance recommendations all in one seamless platform. With advanced machine learning and 24/7 AI coaching support, we transform complex health data into simple, actionable insights tailored specifically to your unique health profile and lifestyle needs. Whether you're starting your fitness journey or optimizing your current routine, Health Guardian empowers you to make informed decisions, achieve your wellness goals, and live a healthier life. Experience the future of personalized healthcare - where technology meets care, and your health comes first.
+          </p>
+          <p><strong>Start Your Journey to Better Health Today</strong></p>
+          <div class="hero-actions">
+            <a class="btn primary" href="#domain">Explore Research</a>
+            <a class="btn" href="#about">Meet Team</a>
+          </div>
+        </section>
+
+        <section class="research-areas" aria-labelledby="research-areas-heading">
+          <h3 id="research-areas-heading">Key Research Areas</h3>
+          <div class="areas-grid">
+            <article class="area">
+              <div class="area-icon" aria-hidden="true">🧪</div>
+              <h4>Innovative Methodology</h4>
+              <p>A novel approach to user story creation using natural language processing and machine learning techniques.</p>
+            </article>
+            <article class="area">
+              <div class="area-icon" aria-hidden="true">⚙️</div>
+              <h4>Advanced Technology</h4>
+              <p>Combines cutting-edge NLP algorithms with domain-specific knowledge to generate better user stories.</p>
+            </article>
+            <article class="area">
+              <div class="area-icon" aria-hidden="true">👥</div>
+              <h4>Team-Centric Design</h4>
+              <p>Designed to enhance collaboration between stakeholders and development teams in agile environments.</p>
+            </article>
+            <article class="area">
+              <div class="area-icon" aria-hidden="true">📊</div>
+              <h4>Measurable Results</h4>
+              <p>Provides data-driven insights on user story quality and team productivity improvements.</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="tech-stack" aria-labelledby="tech-stack-heading">
+          <h3 id="tech-stack-heading">Technologies</h3>
+          <ul class="tech-tags" role="list">
+            <li>Fuzzy Logic</li>
+            <li>Machine Learning</li>
+            <li>React</li>
+            <li>Node.js</li>
+            <li>TypeScript</li>
+          </ul>
+        </section>
+
+        <section class="home-cta-bottom" aria-labelledby="home-cta-heading">
+          <h3 id="home-cta-heading">Interested in our research?</h3>
+          <p>Learn more about our methodology, findings, and the team behind this innovative project.</p>
+          <div class="hero-actions">
+            <a class="btn primary" href="#documents">View Documents</a>
+            <a class="btn" href="#contact">Contact Us</a>
+          </div>
+        </section>
+      </section>
+
+      <section id="domain" class="tab-section" tabindex="-1" aria-labelledby="tab-domain">
+        <div class="domain-hero">
+          <h1 id="tab-domain">Research Domain</h1>
+          <p>Exploring the integration of machine learning and personalized health analytics to enhance fitness adherence and informed health decision-making.</p>
+        </div>
+        <section class="research-state" aria-labelledby="research-state-heading">
+          <header class="lit-header">
+            <h2>Literature Survey</h2>
+            <p>A comprehensive review of existing research and tools in AI-driven health management</p>
+          </header>
+          <div class="info-card">
+            <div class="card-head">
+              <div class="card-icon" aria-hidden="true">🔎</div>
+              <h2 id="research-state-heading">Current State of Research</h2>
+            </div>
+            <p>
+              Our literature survey reviewed more than 50 scholarly articles and industry studies published between 2015–2025 on AI-driven health management, fitness adherence, and predictive analytics. Several core themes were identified, including the rise of machine learning in personalized healthcare, the use of neural networks for health risk prediction, and the integration of conversational AI for continuous user engagement and motivation.
+            </p>
+            <p>
+              The survey revealed that while numerous digital health platforms support basic fitness tracking and monitoring, few systems effectively combine predictive modeling, personalized intervention planning, and intelligent coaching within a single integrated framework. Most existing solutions emphasize data collection and visualization rather than delivering adaptive, real-time, and personalized health decision support.
+            </p>
+          </div>
+        </section>
+
+        <section class="key-findings" aria-labelledby="key-findings-heading">
+          <div class="info-card">
+            <div class="card-head">
+              <div class="card-icon" aria-hidden="true">📊</div>
+              <h2 id="key-findings-heading">Key Findings (Sri Lankan Context)</h2>
+            </div>
+            <ul class="findings-list">
+              <li>75% of Sri Lankan adults face NCD risks due to poor lifestyle management and limited preventive digital tools.</li>
+              <li>Existing local fitness systems lack integration with predictive analytics and personalized health planning.</li>
+              <li>The Health Guardian model achieved 84% accuracy in localized health risk prediction.</li>
+              <li>AI-driven personalized fitness plans improved user adherence among Sri Lankan adults.</li>
+              <li>Conversational AI increased engagement, aligning with rising smartphone use in Sri Lanka.</li>
+              <li>The research highlights the need for culturally adapted, affordable, and privacy-compliant digital health solutions.</li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="research-gap" aria-labelledby="research-gap-heading">
+          <header class="gap-header">
+            <h2>Research Gap</h2>
+            <p>Identified limitations in current AI-driven health management systems</p>
+          </header>
+          <div class="info-card">
+            <div class="card-head">
+              <div class="card-icon" aria-hidden="true">🔍</div>
+              <h2 id="research-gap-heading">Identified Gaps</h2>
+            </div>
+            <ul class="gap-list">
+              <li><strong>Integration Gap:</strong> Lack of an integrated platform that combines fitness tracking, health risk prediction, and personalized intervention within a single system.</li>
+              <li><strong>Localization Gap:</strong> Absence of localized and culturally relevant digital health models tailored to Sri Lankan users and healthcare contexts.</li>
+              <li><strong>Adaptive Learning Gap:</strong> Limited use of real-time adaptive machine learning for continuously updating health recommendations based on user behavior and physiological changes.</li>
+              <li><strong>Engagement Gap:</strong> Insufficient integration of AI-driven conversational coaching to sustain long-term user motivation and adherence in preventive health management.</li>
+            </ul>
+            <p class="gap-conclusion">These gaps present a significant opportunity for our research to make a novel contribution to the field by developing an approach that addresses these limitations.</p>
+          </div>
+        </section>
+
+        <section class="research-questions" aria-labelledby="research-questions-heading">
+          <header class="questions-header">
+            <h2>Primary Research Questions</h2>
+            <p>Key research questions driving our investigation into AI-driven health management</p>
+          </header>
+          <div class="info-card">
+            <div class="card-head">
+              <div class="card-icon" aria-hidden="true">❓</div>
+              <h2 id="research-questions-heading">Research Questions</h2>
+            </div>
+            <ul class="questions-list">
+              <li><strong>Health Risk Prediction:</strong> How can Artificial Neural Networks (ANN) be applied to accurately predict personalized health risk levels among Sri Lankan adults?</li>
+              <li><strong>Activity Monitoring:</strong> What computational methods can dynamically monitor and analyze user activity levels to enhance fitness adherence?</li>
+              <li><strong>Insurance Personalization:</strong> How can AI-driven recommendation systems personalize insurance plans based on individual health risks and lifestyle patterns?</li>
+              <li><strong>Conversational AI Integration:</strong> How can conversational AI be integrated to provide personalized health coaching that improves motivation and long-term engagement?</li>
+            </ul>
+            <p class="questions-conclusion">These research questions guide our investigation into developing an integrated AI-powered health management system that addresses the unique needs of Sri Lankan adults.</p>
+          </div>
+        </section>
+
+        <section class="project-objectives" aria-labelledby="project-objectives-heading">
+          <header class="objectives-header">
+            <h2>Project Objectives</h2>
+            <p>The specific goals we aim to achieve through this research</p>
+          </header>
+          <div class="info-card">
+            <div class="card-head">
+              <div class="card-icon" aria-hidden="true">🎯</div>
+              <h2 id="project-objectives-heading">Main Objective</h2>
+            </div>
+            <p class="main-objective">
+              To enhance adult health management by analyzing near real-time fitness data using an Adaptive Activity Scoring Algorithm, Artificial Neural Networks (ANN) for risk prediction and customized insurance plans, and Random Forest Specifier with Grid Search for exercise and health recommendations, with the goal of promoting proactive health monitoring and wellness optimization.
+            </p>
+          </div>
+          
+          <div class="info-card">
+            <div class="card-head">
+              <div class="card-icon" aria-hidden="true">📋</div>
+              <h2>Specific Objectives</h2>
+            </div>
+            <ul class="objectives-list">
+              <li><strong>Fitness System for Activity Level Calculation and Goal Monitoring:</strong> To develop a fitness system that accurately calculate activity levels, monitor progress, and provides personalized insights to enhance user engagement, consistency, and overall health outcomes.</li>
+              <li><strong>Predict Risk and Identify Trends At Members:</strong> To analyze health data and identify at-risk individuals by predicting health trends and providing timely interventions to improve overall compliance and health levels.</li>
+              <li><strong>Personalized Exercise & Health Recommendation System:</strong> To develop adaptive and personalized intervention plans that dynamically adjust based on individuals' health data, risk levels, and exercise preferences, promoting sustainable behavior changes and improved long-term health outcomes for corporate employees.</li>
+              <li><strong>Smart Insurance Plan Recommendation:</strong> To Develop a AI system that first checks insurance eligibility using a rule-based approach, then evaluates eligible individuals based on risk level. The system will recommend a personalized insurance plan tailored to each individual's profile.</li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="research-methodology" aria-labelledby="research-methodology-heading">
+          <header class="methodology-header">
+            <h2>Research Methodology</h2>
+            <p>Our comprehensive approach to developing and validating the intelligent health management system</p>
+          </header>
+          <div class="info-card">
+            <div class="card-head">
+              <div class="card-icon" aria-hidden="true">🔬</div>
+              <h2 id="research-methodology-heading">Mixed Methods Approach</h2>
+            </div>
+            <p class="methodology-intro">
+              Our research employs a mixed-methods approach combining qualitative and quantitative techniques to design and validate an intelligent health management system integrating activity level calculation, risk prediction, smart insurance planning, and personalized exercise generation.
+            </p>
+          </div>
+
+          <div class="methodology-phases">
+            <div class="phase-card">
+              <div class="phase-header">
+                <div class="phase-number">1</div>
+                <h3>Exploratory Research</h3>
+              </div>
+              <ul class="phase-list">
+                <li>Literature review of fuzzy logic, interpolation, rule-based systems, neural networks, and ensemble learning methods</li>
+                <li>Expert consultations to identify key health indicators and decision factors</li>
+                <li>Collection and preprocessing of real-world fitness and health data for model development</li>
+              </ul>
+            </div>
+
+            <div class="phase-card">
+              <div class="phase-header">
+                <div class="phase-number">2</div>
+                <h3>Methodology Development</h3>
+              </div>
+              <ul class="phase-list">
+                <li>Design of a hybrid framework combining multiple analytical and AI-based methods</li>
+                <li>Fuzzy Logic Classification for uncertainty handling in user inputs</li>
+                <li>Linear Interpolation Method for refining and smoothing fuzzy outputs</li>
+                <li>Rule-Based Classification for transparent and domain-driven decision-making</li>
+                <li>Artificial Neural Network (ANN) for predicting individual health risk levels</li>
+                <li>Random Forest Algorithm for activity level estimation, exercise recommendation, and insurance plan optimization</li>
+              </ul>
+            </div>
+
+            <div class="phase-card">
+              <div class="phase-header">
+                <div class="phase-number">3</div>
+                <h3>Tool Implementation</h3>
+              </div>
+              <ul class="phase-list">
+                <li>Development of a prototype system integrating all predictive and analytical modules</li>
+                <li>Implementation of the hybrid model architecture within a unified software platform</li>
+                <li>User interface designed for real-time insights, recommendations, and result visualization</li>
+              </ul>
+            </div>
+
+            <div class="phase-card">
+              <div class="phase-header">
+                <div class="phase-number">4</div>
+                <h3>Validation and Evaluation</h3>
+              </div>
+              <ul class="phase-list">
+                <li>Controlled experiments with selected participants to test model accuracy and reliability</li>
+                <li>Comparative analysis of predicted results against expert assessments</li>
+                <li>Quantitative and qualitative evaluation of performance, usability, and interpretability</li>
+                <li>Refinement of the methodology and tool based on validation outcomes</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section class="technologies-used" aria-labelledby="technologies-used-heading">
+          <header class="tech-header">
+            <h2>Technologies Used</h2>
+            <p>Advanced AI and machine learning technologies powering our intelligent health management system</p>
+          </header>
+
+          <div class="tech-categories">
+            <div class="tech-category">
+              <div class="category-header">
+                <div class="category-icon" aria-hidden="true">🧠</div>
+                <h3>AI & Machine Learning Technologies</h3>
+              </div>
+              <div class="tech-grid">
+                <div class="tech-item">
+                  <div class="tech-icon">🔮</div>
+                  <h4>Fuzzy Logic Classification</h4>
+                  <p>Handling uncertainty and imprecision in health and lifestyle data</p>
+                </div>
+                <div class="tech-item">
+                  <div class="tech-icon">📈</div>
+                  <h4>Linear Interpolation Method</h4>
+                  <p>Refining fuzzy outputs and generating continuous risk and activity scores</p>
+                </div>
+                <div class="tech-item">
+                  <div class="tech-icon">⚖️</div>
+                  <h4>Rule-Based Classification</h4>
+                  <p>Transparent and domain-driven decision logic in health and insurance recommendations</p>
+                </div>
+                <div class="tech-item">
+                  <div class="tech-icon">🕸️</div>
+                  <h4>Artificial Neural Network (ANN)</h4>
+                  <p>Predicting individual health risk levels based on multidimensional input features</p>
+                </div>
+                <div class="tech-item">
+                  <div class="tech-icon">🌲</div>
+                  <h4>Random Forest Algorithm</h4>
+                  <p>Accurate activity level estimation, exercise plan generation, and insurance plan optimization</p>
+                </div>
+                <div class="tech-item">
+                  <div class="tech-icon">🔗</div>
+                  <h4>Hybrid Integration Framework</h4>
+                  <p>Combining explainable (rule-based, fuzzy) and predictive (ANN, Random Forest) models for improved accuracy and interpretability</p>
+                </div>
+                <div class="tech-item">
+                  <div class="tech-icon">🔄</div>
+                  <h4>Adaptive Learning Mechanism</h4>
+                  <p>Continuous model refinement using real-world feedback and user data</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="tech-category">
+              <div class="category-header">
+                <div class="category-icon" aria-hidden="true">💻</div>
+                <h3>Development Technologies</h3>
+              </div>
+              <div class="dev-tech-grid">
+                <div class="dev-tech-item">
+                  <div class="dev-tech-icon">🐍</div>
+                  <div class="dev-tech-content">
+                    <h4>Python Ecosystem</h4>
+                    <p>Deep neural network development and machine learning implementation</p>
+                  </div>
+                </div>
+                <div class="dev-tech-item">
+                  <div class="dev-tech-icon">⚛️</div>
+                  <div class="dev-tech-content">
+                    <h4>React</h4>
+                    <p>Front-end user interface development</p>
+                  </div>
+                </div>
+                <div class="dev-tech-item">
+                  <div class="dev-tech-icon">🟢</div>
+                  <div class="dev-tech-content">
+                    <h4>Node.js</h4>
+                    <p>Backend API development</p>
+                  </div>
+                </div>
+                <div class="dev-tech-item">
+                  <div class="dev-tech-icon">🐳</div>
+                  <div class="dev-tech-content">
+                    <h4>Docker</h4>
+                    <p>Containerization and deployment</p>
+                  </div>
+                </div>
+                <div class="dev-tech-item">
+                  <div class="dev-tech-icon">🗄️</div>
+                  <div class="dev-tech-content">
+                    <h4>SQL & NoSQL Databases</h4>
+                    <p>Knowledge storage and data management</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </section>
+
+      
+
+      <section id="milestone" class="tab-section" tabindex="-1" aria-labelledby="tab-milestone">
+        <div class="milestone-hero">
+          <h1 id="tab-milestone">Project Milestones</h1>
+          <p>Tracking our research journey and progress through key milestones</p>
+        </div>
+        
+        <section class="research-timeline" aria-labelledby="research-timeline-heading">
+          <header class="timeline-header">
+            <h2>Research Timeline</h2>
+            <p>Key phases and achievements in our research project</p>
+          </header>
+          <div class="timeline">
+            <div class="milestone completed">
+              <div class="milestone-icon">✅</div>
+              <div class="milestone-content">
+                <h3>Brainstorming Workshop</h3>
+                <p class="milestone-date">August 28th, 2024</p>
+                <p class="milestone-description">Initial workshop to brainstorm project ideas and scope.</p>
+              </div>
+            </div>
+            
+            <div class="milestone completed">
+              <div class="milestone-icon">✅</div>
+              <div class="milestone-content">
+                <h3>Group Registration</h3>
+                <p class="milestone-date">October 07, 2024</p>
+                <p class="milestone-description">Official registration of the research group.</p>
+              </div>
+            </div>
+            
+            <div class="milestone completed">
+              <div class="milestone-icon">✅</div>
+              <div class="milestone-content">
+                <h3>Topic Assessment Form (TAF)</h3>
+                <p class="milestone-date">December 09, 2024</p>
+                <p class="milestone-description">Submission of the Topic Assessment Form for review.</p>
+              </div>
+            </div>
+            
+            <div class="milestone completed">
+              <div class="milestone-icon">✅</div>
+              <div class="milestone-content">
+                <h3>Project Charter</h3>
+                <p class="milestone-date">January 07, 2025</p>
+                <p class="milestone-description">Development and submission of the project charter document.</p>
+              </div>
+            </div>
+            
+            <div class="milestone completed">
+              <div class="milestone-icon">✅</div>
+              <div class="milestone-content">
+                <h3>Proposal Presentation</h3>
+                <p class="milestone-date">January 27, 2025</p>
+                <p class="milestone-description">Presentation of the research proposal to the committee.</p>
+              </div>
+            </div>
+            
+            <div class="milestone completed">
+              <div class="milestone-icon">✅</div>
+              <div class="milestone-content">
+                <h3>Proposal Reports</h3>
+                <p class="milestone-date">February 05, 2025</p>
+                <p class="milestone-description">Submission of initial proposal reports and draft.</p>
+              </div>
+            </div>
+            
+            <div class="milestone in-progress">
+              <div class="milestone-icon">🔄</div>
+              <div class="milestone-content">
+                <h3>Progress Presentation - I</h3>
+                <p class="milestone-date">April 07, 2025</p>
+                <p class="milestone-description">First progress review presentation.</p>
+              </div>
+            </div>
+            
+            <div class="milestone planned">
+              <div class="milestone-icon">📋</div>
+              <div class="milestone-content">
+                <h3>Check List I</h3>
+                <p class="milestone-date">April 30, 2025</p>
+                <p class="milestone-description">Final checklist review before project completion.</p>
+              </div>
+            </div>
+            
+            <div class="milestone planned">
+              <div class="milestone-icon">📄</div>
+              <div class="milestone-content">
+                <h3>Research Paper</h3>
+                <p class="milestone-date">June 23, 2025</p>
+                <p class="milestone-description">Draft submission of the research paper.</p>
+              </div>
+            </div>
+            
+            <div class="milestone planned">
+              <div class="milestone-icon">📊</div>
+              <div class="milestone-content">
+                <h3>Progress Presentation - II</h3>
+                <p class="milestone-date">September 16, 2025</p>
+                <p class="milestone-description">Second progress review presentation.</p>
+              </div>
+            </div>
+            
+            <div class="milestone planned">
+              <div class="milestone-icon">✅</div>
+              <div class="milestone-content">
+                <h3>Check List II</h3>
+                <p class="milestone-date">September 15 - October 15, 2025</p>
+                <p class="milestone-description">Final checklist review before project completion.</p>
+              </div>
+            </div>
+            
+            <div class="milestone planned">
+              <div class="milestone-icon">🌐</div>
+              <div class="milestone-content">
+                <h3>Project Website</h3>
+                <p class="milestone-date">October 27 - 28, 2025</p>
+                <p class="milestone-description">Launch of the project website.</p>
+              </div>
+            </div>
+            
+            <div class="milestone planned">
+              <div class="milestone-icon">🎯</div>
+              <div class="milestone-content">
+                <h3>Final Presentation & VIVA</h3>
+                <p class="milestone-date">October 27 - 28, 2025</p>
+                <p class="milestone-description">Final project presentation and oral defense.</p>
+              </div>
+            </div>
+            
+            <div class="milestone planned">
+              <div class="milestone-icon">📚</div>
+              <div class="milestone-content">
+                <h3>Research Logbook</h3>
+                <p class="milestone-date">October 31, 2025</p>
+                <p class="milestone-description">Completion and submission of research logbook.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </section>
+
+      <section id="documents" class="tab-section" tabindex="-1" aria-labelledby="tab-documents">
+        <div class="documents-hero">
+          <h1 id="tab-documents">Research Documents</h1>
+          <p>Key documents and deliverables from our research project</p>
+        </div>
+        
+        <section class="research-documents" aria-labelledby="research-documents-heading">
+          <header class="documents-header">
+            <h2>Project Deliverables</h2>
+            <p>Comprehensive collection of research documents, reports, and presentations</p>
+          </header>
+          
+          <div class="documents-grid">
+            <div class="document-category">
+              <div class="category-header">
+                <div class="category-icon" aria-hidden="true">📋</div>
+                <h3>Proposal Documents</h3>
+              </div>
+              <div class="doc-list">
+                <div class="doc-item">
+                  <div class="doc-icon">📄</div>
+                  <div class="doc-content">
+                    <h4>Proposal Report (IT21106460)</h4>
+                    <p>Individual proposal report by team member IT21106460</p>
+                    <a href="https://drive.google.com/file/d/1yCziL-tAr653kW-UbZ83bNYB4DGHlLn6/view?usp=sharing" target="_blank" rel="noopener" class="doc-link">Download PDF</a>
+                  </div>
+                </div>
+                <div class="doc-item">
+                  <div class="doc-icon">📄</div>
+                  <div class="doc-content">
+                    <h4>Proposal Report (IT21826818)</h4>
+                    <p>Individual proposal report by team member IT21826818</p>
+                    <a href="https://drive.google.com/file/d/1kPVemjDtzsUgS1InK7pvkbKQFmTojJSu/view?usp=sharing" target="_blank" rel="noopener" class="doc-link">Download PDF</a>
+                  </div>
+                </div>
+                <div class="doc-item">
+                  <div class="doc-icon">📄</div>
+                  <div class="doc-content">
+                    <h4>Proposal Report (IT21815782)</h4>
+                    <p>Individual proposal report by team member IT21815782</p>
+                    <a href="https://drive.google.com/file/d/1IF3rZjOgV0Ijrk4uKGIzH1COurioqmdB/view?usp=sharing" target="_blank" rel="noopener" class="doc-link">Download PDF</a>
+                  </div>
+                </div>
+                <div class="doc-item">
+                  <div class="doc-icon">📄</div>
+                  <div class="doc-content">
+                    <h4>Proposal Report (IT21362880)</h4>
+                    <p>Individual proposal report by team member IT21362880</p>
+                    <a href="https://drive.google.com/file/d/1tgroXMcVRMTqLTp9EInCh2U5rOa-4jI7/view?usp=sharing" target="_blank" rel="noopener" class="doc-link">Download PDF</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="document-category">
+              <div class="category-header">
+                <div class="category-icon" aria-hidden="true">📚</div>
+                <h3>Final Reports</h3>
+              </div>
+              <div class="doc-list">
+                <div class="doc-item">
+                  <div class="doc-icon">📄</div>
+                  <div class="doc-content">
+                    <h4>Final Report R25-003 IT21106460</h4>
+                    <p>Final project report by team member IT21106460</p>
+                    <a href="https://drive.google.com/file/d/15P-CPKVtROKOo6KPPnb5EivQiv5mp7WK/view?usp=sharing" target="_blank" rel="noopener" class="doc-link">Download PDF</a>
+                  </div>
+                </div>
+                <div class="doc-item">
+                  <div class="doc-icon">📄</div>
+                  <div class="doc-content">
+                    <h4>Final Report R25-003 IT21826818</h4>
+                    <p>Final project report by team member IT21826818</p>
+                    <a href="https://drive.google.com/file/d/1WGQadlR8p30NL9ox4j1hHJMWEvbmipNT/view?usp=sharing" target="_blank" rel="noopener" class="doc-link">Download PDF</a>
+                  </div>
+                </div>
+                <div class="doc-item">
+                  <div class="doc-icon">📄</div>
+                    <div class="doc-content">
+                    <h4>Final Report R25-003 IT21362880</h4>
+                    <p>Final project report by team member IT21362880</p>
+                    <a href="https://drive.google.com/file/d/1yuVbVNYY4e9G_vRyTrhe7rBtsVFnrWMC/view?usp=sharing" target="_blank" rel="noopener" class="doc-link">Download PDF</a>
+                  </div>
+                </div>
+                <div class="doc-item">
+                  <div class="doc-icon">📄</div>
+                  <div class="doc-content">
+                    <h4>Final Report R25-003 IT21815782</h4>
+                    <p>Final project report by team member IT21815782</p>
+                    <a href="https://drive.google.com/file/d/12tu92Vm3kzfSN5WsYQng1AJOwGYf7IDT/view?usp=sharing" target="_blank" rel="noopener" class="doc-link">Download PDF</a>
+                  </div>
+                </div>
+                <div class="doc-item">
+                  <div class="doc-icon">📄</div>
+                  <div class="doc-content">
+                    <h4>Final Report R25-003 (Combined)</h4>
+                    <p>Combined final project report for the entire team</p>
+                    <a href="https://drive.google.com/file/d/1H5xHCmmJu-XYliqEKdoqQo1EcX5wljKZ/view?usp=sharing" target="_blank" rel="noopener" class="doc-link">Download PDF</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="document-category">
+              <div class="category-header">
+                <div class="category-icon" aria-hidden="true">📖</div>
+                <h3>Research Paper</h3>
+              </div>
+              <div class="doc-list">
+                <div class="doc-item">
+                  <div class="doc-icon">📄</div>
+                  <div class="doc-content">
+                    <h4>HealthGuardian Smart Platform</h4>
+                    <p>Research paper documenting the HealthGuardian smart platform methodology and findings</p>
+                    <a href="https://drive.google.com/file/d/1b5xuunq_NkeWVRtjTQtRP5tvFyGS0oXZ/view?usp=sharing" target="_blank" rel="noopener" class="doc-link">Download PDF</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </section>
+
+      <section id="presentation" class="tab-section" tabindex="-1" aria-labelledby="tab-presentation">
+        <div class="presentation-hero">
+          <h1 id="tab-presentation">Project Presentations</h1>
+          <p>View presentations from key milestones in our research project</p>
+        </div>
+        
+        <section class="research-presentations" aria-labelledby="research-presentations-heading">
+          <header class="presentations-header">
+            <h2>Research Presentations</h2>
+            <p>Slides and materials from presentations throughout the project lifecycle</p>
+          </header>
+          
+          <div class="presentations-grid">
+            <div class="presentation-item">
+              <div class="presentation-header">
+                <div class="presentation-icon">📊</div>
+                <div class="presentation-info">
+                  <h3>Proposal Presentation</h3>
+                  <p class="presentation-date">January 27, 2025</p>
+                </div>
+              </div>
+              <p class="presentation-description">Initial presentation introducing the research project to stakeholders.</p>
+              <div class="presentation-actions">
+                <a href="https://drive.google.com/file/d/1_dVXVvVz767AsoU5euCWD-lbrKLwfmh1/view?usp=sharing" target="_blank" rel="noopener" class="presentation-link">
+                  <span class="link-icon">📄</span>
+                  Download Slides
+                </a>
+              </div>
+            </div>
+
+            <div class="presentation-item">
+              <div class="presentation-header">
+                <div class="presentation-icon">📈</div>
+                <div class="presentation-info">
+                  <h3>PP1 Presentation</h3>
+                  <p class="presentation-date">April 07, 2025</p>
+                </div>
+              </div>
+              <p class="presentation-description">Presentation of key findings from the literature review and identification of research gaps.</p>
+              <div class="presentation-actions">
+                <a href="https://drive.google.com/file/d/1q45j-QKFom4pvJfpka4lQsjkOGRNzpnw/view?usp=sharing" target="_blank" rel="noopener" class="presentation-link">
+                  <span class="link-icon">📄</span>
+                  Download Slides
+                </a>
+              </div>
+            </div>
+
+            <div class="presentation-item">
+              <div class="presentation-header">
+                <div class="presentation-icon">🎯</div>
+                <div class="presentation-info">
+                  <h3>PP2 Presentation</h3>
+                  <p class="presentation-date">September 15, 2025</p>
+                </div>
+              </div>
+              <p class="presentation-description">Update on project progress, challenges encountered, and next steps.</p>
+              <div class="presentation-actions">
+                <a href="https://drive.google.com/file/d/1aOWcUYJrAyTvw9usvSYlQzmipBrdX2R5/view?usp=sharing" target="_blank" rel="noopener" class="presentation-link">
+                  <span class="link-icon">📄</span>
+                  Download Slides
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="upcoming-presentations" aria-labelledby="upcoming-presentations-heading">
+          <header class="upcoming-header">
+            <h2>Upcoming Presentations</h2>
+            <p>Schedule of forthcoming research presentations and events</p>
+          </header>
+          
+          <div class="upcoming-card">
+            <div class="upcoming-content">
+              <div class="upcoming-icon">🎤</div>
+              <div class="upcoming-info">
+                <h3>Final Research Presentation and Viva</h3>
+                <p class="upcoming-date">October 28, 2025</p>
+                <p class="upcoming-description">Final project presentation and oral defense showcasing the complete HealthGuardian system and research findings.</p>
+              </div>
+            </div>
+            <div class="upcoming-status">
+              <span class="status-badge upcoming">Upcoming</span>
+            </div>
+          </div>
+        </section>
+      </section>
+
+      <section id="about" class="tab-section" tabindex="-1" aria-labelledby="tab-about">
+        <div class="about-hero">
+          <h1 id="tab-about">About Our Team</h1>
+          <p>Meet the researchers and contributors behind HealthGuardian</p>
+        </div>
+        
+        <section class="research-team" aria-labelledby="research-team-heading">
+          <header class="team-header">
+            <h2>Research Team</h2>
+            <p>The dedicated professionals driving our research forward</p>
+          </header>
+          
+          <div class="team-grid">
+            <!-- Supervisors -->
+            <div class="team-category">
+              <div class="category-header">
+                <div class="category-icon" aria-hidden="true">👨‍🏫</div>
+                <h3>Supervisory Team</h3>
+              </div>
+              <div class="team-members">
+                <div class="member-card supervisor">
+                  <div class="member-image-container">
+                    <div class="member-image">
+                      <img src="images/Sir.png" alt="Professor Anuradha Jayakody" class="member-photo">
+                    </div>
+                  </div>
+                  <div class="member-info">
+                    <h4>Professor Anuradha Jayakody</h4>
+                    <p class="member-role">Supervisor</p>
+                    <p class="member-affiliation">Sri Lanka Institute of Information Technology</p>
+                    <a href="mailto:anuradha.j@sliit.lk" class="member-email">
+                      <span class="email-icon">📧</span>
+                      anuradha.j@sliit.lk
+                    </a>
+                    <p class="member-description">Leading expert in information technology and research methodology, providing strategic guidance for the HealthGuardian project.</p>
+                    <div class="member-skills">
+                      <span class="skill-tag">Research Methodology</span>
+                      <span class="skill-tag">IT Strategy</span>
+                      <span class="skill-tag">Academic Leadership</span>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="member-card supervisor">
+                  <div class="member-image-container">
+                    <div class="member-image-placeholder">
+                      <img src="images/co.png" alt="Narmada Gamage" class="member-photo">
+                    </div>
+                  </div>
+                  <div class="member-info">
+                    <h4>Ms. Narmada Gamage</h4>
+                    <p class="member-role">Co-Supervisor</p>
+                    <p class="member-affiliation">Sri Lanka Institute of Information Technology</p>
+                    <a href="mailto:narmada.g@sliit.lk" class="member-email">
+                      <span class="email-icon">📧</span>
+                      narmada.g@sliit.lk
+                    </a>
+                    <p class="member-description">Specialist in health informatics and AI applications, providing technical oversight and research direction.</p>
+                    <div class="member-skills">
+                      <span class="skill-tag">Health Informatics</span>
+                      <span class="skill-tag">AI Applications</span>
+                      <span class="skill-tag">Technical Oversight</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Project Team -->
+            <div class="team-category">
+              <div class="category-header">
+                <div class="category-icon" aria-hidden="true">👥</div>
+                <h3>Project Team</h3>
+              </div>
+              <div class="team-members">
+                <div class="member-card">
+                  <div class="member-image-container">
+                    <div class="member-image">
+                      <img src="images/Dasini.jpg" alt="Dasini Sumanaweera - Associate Project Manager" class="member-photo">
+                    </div>
+                  </div>
+                  <div class="member-info">
+                    <h4>Dasini Sumanaweera</h4>
+                    <p class="member-role">Associate Project Manager</p>
+                    <p class="member-affiliation">Undergraduate at SLIIT</p>
+                    <a href="mailto:dasinis@evokelabs.io" class="member-email">
+                      <span class="email-icon">📧</span>
+                      dasinis@evokelabs.io
+                    </a>
+                    <p class="member-description">Overseeing project coordination and stakeholder management. Responsible for ensuring project deliverables meet quality standards and deadlines.</p>
+                    <div class="member-skills">
+                      <span class="skill-tag">Project Management</span>
+                      <span class="skill-tag">Stakeholder Relations</span>
+                      <span class="skill-tag">Quality Assurance</span>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="member-card">
+                  <div class="member-image-container">
+                    <div class="member-image">
+                      <img src="images/Vidumini.png" alt="Vidumini Layangika" class="member-photo">
+                    </div>
+                  </div>
+                  <div class="member-info">
+                    <h4>Vidumini Layangika</h4>
+                    <p class="member-role">Business Analyst</p>
+                    <p class="member-affiliation">Undergraduate at SLIIT</p>
+                    <a href="mailto:viduminilayangika@gmail.com" class="member-email">
+                      <span class="email-icon">📧</span>
+                      viduminilayangika@gmail.com
+                    </a>
+                    <p class="member-description">Analyzing business requirements and translating them into technical specifications for the HealthGuardian platform.</p>
+                    <div class="member-skills">
+                      <span class="skill-tag">Business Analysis</span>
+                      <span class="skill-tag">Requirements Gathering</span>
+                      <span class="skill-tag">Technical Translation</span>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="member-card">
+                  <div class="member-image-container">
+                    <div class="member-image">
+                      <img src="images/Ramod.jpg" alt="Ramod Prabashwara" class="member-photo">
+                    </div>
+                  </div>
+                  <div class="member-info">
+                    <h4>Ramod Prabashwara</h4>
+                    <p class="member-role">Software Quality Assurance Engineer</p>
+                    <p class="member-affiliation">Undergraduate at SLIIT</p>
+                    <a href="mailto:ramodprabashwara@gmail.com" class="member-email">
+                      <span class="email-icon">📧</span>
+                      ramodprabashwara@gmail.com
+                    </a>
+                    <p class="member-description">Ensuring software quality through comprehensive testing strategies and quality assurance processes for the HealthGuardian system.</p>
+                    <div class="member-skills">
+                      <span class="skill-tag">Quality Assurance</span>
+                      <span class="skill-tag">Testing Strategies</span>
+                      <span class="skill-tag">Software Testing</span>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="member-card">
+                  <div class="member-image-container">
+                    <div class="member-image">
+                      <img src="images/Kavindya.jpg" alt="Kavindya Rajapaksha" class="member-photo">
+                    </div>
+                  </div>
+                  <div class="member-info">
+                    <h4>Kavindya Rajapaksha</h4>
+                    <p class="member-role">Business Analyst</p>
+                    <p class="member-affiliation">Undergraduate at SLIIT</p>
+                    <a href="mailto:kavindyanrajapaksha@gmail.com" class="member-email">
+                      <span class="email-icon">📧</span>
+                      kavindyanrajapaksha@gmail.com
+                    </a>
+                    <p class="member-description">Conducting market research and business analysis to ensure the HealthGuardian platform meets user needs and market requirements.</p>
+                    <div class="member-skills">
+                      <span class="skill-tag">Market Research</span>
+                      <span class="skill-tag">Business Analysis</span>
+                      <span class="skill-tag">User Requirements</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </section>
+
+      <section id="contact" class="tab-section" tabindex="-1" aria-labelledby="tab-contact">
+        <div class="contact-hero">
+          <h1 id="tab-contact">Contact Us</h1>
+          <p>Get in touch with our research team</p>
+        </div>
+        
+        <section class="contact-information" aria-labelledby="contact-information-heading">
+          <header class="contact-header">
+            <h2>Contact Information</h2>
+            <p>Reach out to us for inquiries, collaboration, or research participation</p>
+          </header>
+          
+          <div class="contact-grid">
+            <div class="contact-info">
+              <div class="contact-item">
+                <div class="contact-icon">📧</div>
+                <div class="contact-details">
+                  <h3>Email</h3>
+                  <p class="contact-value">
+                    <a href="mailto:healthguradian.tm@gmail.com">healthguradian.tm@gmail.com</a>
+                  </p>
+                  <p class="contact-description">For general inquiries</p>
+                </div>
+              </div>
+              
+              <div class="contact-item">
+                <div class="contact-icon">📞</div>
+                <div class="contact-details">
+                  <h3>Phone</h3>
+                  <p class="contact-value">+94 70 427 8695</p>
+                  <p class="contact-description">Monday to Friday, 9AM to 5PM</p>
+                </div>
+              </div>
+              
+              <div class="contact-item">
+                <div class="contact-icon">📍</div>
+                <div class="contact-details">
+                  <h3>Location</h3>
+                  <p class="contact-value">SLIIT Malabe Campus</p>
+                  <p class="contact-address">New Kandy Rd<br>Malabe 10115<br>Sri Lanka</p>
+                </div>
+              </div>
+              
+              <div class="contact-item">
+                <div class="contact-icon">🕒</div>
+                <div class="contact-details">
+                  <h3>Office Hours</h3>
+                  <p class="contact-value">Monday - Friday: 9:00 AM - 5:00 PM</p>
+                  <p class="contact-description">Saturday - Sunday: Closed<br>All times are in Sri Lanka Standard Time (SLST)</p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="contact-form-section">
+              <div class="form-header">
+                <h3>Send us a Message</h3>
+                <p>Have questions or want to collaborate? We'd love to hear from you.</p>
+              </div>
+              <form class="contact-form" method="post" action="mailto:healthguradian.tm@gmail.com" enctype="text/plain">
+                <label>
+                  <span>Name</span>
+                  <input type="text" name="name" required />
+                </label>
+                <label>
+                  <span>Email</span>
+                  <input type="email" name="email" required />
+                </label>
+                <label>
+                  <span>Subject</span>
+                  <input type="text" name="subject" required />
+                </label>
+                <label>
+                  <span>Message</span>
+                  <textarea name="message" rows="5" required></textarea>
+                </label>
+                <button type="submit" class="btn primary">Send Message</button>
+              </form>
+            </div>
+          </div>
+          
+          <div class="location-section">
+            <h3>Find Us</h3>
+            <p>Located in SLIIT Malabe Campus</p>
+            <div class="map-placeholder">
+              <div class="map-icon">🗺️</div>
+              <p>Map Placeholder</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="faq-section" aria-labelledby="faq-heading">
+          <header class="faq-header">
+            <h2>Frequently Asked Questions</h2>
+            <p>Answers to common questions about our research and collaboration opportunities</p>
+          </header>
+          
+          <div class="faq-grid">
+            <div class="faq-item">
+              <div class="faq-question">
+                <div class="faq-icon">❓</div>
+                <h3>How can I participate in your research studies?</h3>
+              </div>
+              <div class="faq-answer">
+                <p>We're always looking for participants who work in agile development teams. You can register your interest by filling out the contact form above, and we'll reach out when suitable study opportunities arise.</p>
+              </div>
+            </div>
+            
+            <div class="faq-item">
+              <div class="faq-question">
+                <div class="faq-icon">🔓</div>
+                <h3>Is your research open source?</h3>
+              </div>
+              <div class="faq-answer">
+                <p>Yes, we're committed to open research principles. Our methodology, tools, and findings are being made available to the public as they are developed and validated. Check our Documents section for available resources.</p>
+              </div>
+            </div>
+            
+            <div class="faq-item">
+              <div class="faq-question">
+                <div class="faq-icon">📚</div>
+                <h3>Can I use your research in my own work?</h3>
+              </div>
+              <div class="faq-answer">
+                <p>We encourage the use of our research in both academic and industry contexts. Please cite our work appropriately and reach out if you have specific questions about implementation or application.</p>
+              </div>
+            </div>
+            
+            <div class="faq-item">
+              <div class="faq-question">
+                <div class="faq-icon">🤝</div>
+                <h3>How can my organization become a research partner?</h3>
+              </div>
+              <div class="faq-answer">
+                <p>We're open to partnerships with organizations interested in improving their agile practices. Please contact us with details about your organization and your specific areas of interest, and our team will follow up to discuss potential collaboration opportunities.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <div class="footer-brand">
+            <div class="brand-mark" aria-hidden="true">∎</div>
+            <div>HealthGuardian</div>
+          </div>
+          <p class="muted">AI-powered wellness companion for personalized insights and better health.</p>
+        </div>
+        <div>
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#domain">Domain</a></li>
+            <li><a href="#milestone">Milestone</a></li>
+            <li><a href="#documents">Documents</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <ul>
+            <li><a href="mailto:your.email@example.com">your.email@example.com</a></li>
+            <li>Department / University</li>
+          </ul>
+          <div class="socials" aria-label="Social links">
+            <a href="#" aria-label="Twitter">X</a>
+            <a href="#" aria-label="LinkedIn">in</a>
+            <a href="#" aria-label="GitHub">GH</a>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <p class="muted">© <span id="year"></span> HealthGuardian. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
